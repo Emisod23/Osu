@@ -1,5 +1,8 @@
 .big-nav {
     height: 160px;
+    width: 100%;
+    position: absolute;
+    background-image: url("images/generic.png");
 }
 
 .nav-list {
@@ -7,6 +10,11 @@
     position: absolute;
     display: flex;
     flex-direction: row;
+}
+
+.nav-item{
+    margin-left: 1rem;
+    color: aliceblue;
 }
 
 @import "reset/reset.scss";
