@@ -5,6 +5,8 @@
 .nav-list {
   list-style: none;
   position: absolute;
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */
